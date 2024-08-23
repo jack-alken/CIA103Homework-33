@@ -1,6 +1,6 @@
 package hm1;
 
-public class hm {
+public class Hm1 {
 	public static void main(String[] args) {
 //		1.請設計一隻Java程式,計算12,6這兩個數值的和與積
 		int a =12 ;int b=6;

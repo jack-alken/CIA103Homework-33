@@ -1,6 +1,6 @@
 package hm2;
 
-public class hm {
+public class Hm2 {
 	public static void main(String[] args) {
 //請設計一隻Java程式,計算1~1000的偶數和 (2+4+6+8+...+1000)
 	int a = 0;int sum =0;
