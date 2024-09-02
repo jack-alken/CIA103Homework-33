@@ -18,7 +18,7 @@ public class Hw3a {
 			int b = x[1];
 			int c = x[2];
 
-			if (a * b * c != 0) {
+			if (a + b > c && b + c > a && a + c > b) {
 				if (a == b && b == c) {
 					System.out.print("這是正三角形");
 				} else if (a == b || b == c || a == c)
@@ -27,12 +27,12 @@ public class Hw3a {
 						|| (Math.pow(b, 2) == Math.pow(c, 2) + Math.pow(a, 2)
 								|| (Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2)))))
 					System.out.print("這是直角三角形");
-				else if (a + b > c || b + c > a || a + c > b)
-					System.out.print("這是其他三角形");
+				
 				else {
-					System.out.print("這不是三角形");
+					System.out.print("這是其他三角形");
 				}
-			}
+			}else if (a + b < c || b + c < a || a + c < b)
+				System.out.print("這不是三角形");
 		}
 	}
 }

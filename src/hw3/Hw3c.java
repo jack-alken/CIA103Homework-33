@@ -10,7 +10,7 @@ public class Hw3c {
 		int a;
 		int b = 0;
 		Scanner x = new Scanner(System.in);
-		System.out.println("請輸入不想要的數字");
+		System.out.println("請輸入不想要的數字(1~9)");
 		int c = x.nextInt();
 		int[] y = new int[50];
 		y[0] = 0;
@@ -37,5 +37,6 @@ public class Hw3c {
 				i--;
 			}
 		}
+		
 	}
 }

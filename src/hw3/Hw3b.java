@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Hw3b {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("開始猜數字吧!");
+		System.out.println("開始猜數字吧! 請輸入整數");
 		int i = (int) (Math.random() * 101);
 		int x;
 		x = sc.nextInt();
@@ -22,7 +22,5 @@ public class Hw3b {
 			x = sc.nextInt();
 		}
 		System.out.print("猜對了答案就是" + i);
-//	do{System.out.println("猜錯了!") ;int x=sc.nextInt(); 
-//		while(i != x );}
 	}
 }
