@@ -27,12 +27,12 @@ public class Hw3a {
 						|| (Math.pow(b, 2) == Math.pow(c, 2) + Math.pow(a, 2)
 								|| (Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2)))))
 					System.out.print("這是直角三角形");
-				
+
 				else {
 					System.out.print("這是其他三角形");
 				}
-			}else if (a + b < c || b + c < a || a + c < b)
+			} else if (a + b < c || b + c < a || a + c < b)
 				System.out.print("這不是三角形");
-		}
+		}sc.close();
 	}
 }

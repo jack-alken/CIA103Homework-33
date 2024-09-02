@@ -10,7 +10,7 @@ public class Hm1 {
 		
 //		2.請設計一隻Java程式,計算200顆蛋共是幾打幾顆? (一打為12顆)
 		int eggs = 200;
-		System.out.println((200/12)+"打" + (200%12) + "顆");
+		System.out.println((eggs/12)+"打" + (eggs%12) + "顆");
 //		3.請由程式算出256559秒為多少天、多少小時、多少分與多少秒
 		int sec = 256559;
 		int sec1 = sec%60;

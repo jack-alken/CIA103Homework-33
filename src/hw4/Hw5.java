@@ -25,6 +25,6 @@ public class Hw5 {
             day = sc.nextInt();}
         for(int i=0;i<month-1;i++) {date +=d[i];
         }date +=day;
-        System.out.print("輸入的日期為該年第"+ date +"天");
+        System.out.print("輸入的日期為該年第"+ date +"天");sc.close();
     }
 }

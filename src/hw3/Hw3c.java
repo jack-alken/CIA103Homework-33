@@ -13,6 +13,7 @@ public class Hw3c {
 		System.out.println("請輸入不想要的數字(1~9)");
 		int c = x.nextInt();
 		int[] y = new int[50];
+		x.close();
 		y[0] = 0;
 		for (a = 1; a <= 49; a++) {
 			if (a / 10 == c || a % 10 == c) {

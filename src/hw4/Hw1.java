@@ -8,7 +8,7 @@ package hw4;
 public class Hw1 {
 	public static void main(String[] args) {
 		int a[] = { 29, 100, 39, 41, 50, 8, 66, 77, 95, 15 };
-		int sum = 0;
+		
 		int b = 0;
 		int c = 0;
 		for (b = 0; b < a.length; b++) {

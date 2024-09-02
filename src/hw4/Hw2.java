@@ -17,7 +17,7 @@ public class Hw2 {
 		for (i = (al - 1); i >= 0; i--) {
 			char ch = arg.charAt(i);
 
-			System.out.print(ch);
+			System.out.print(ch);sc.close();
 		}
 	}
 }

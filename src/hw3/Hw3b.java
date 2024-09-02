@@ -21,6 +21,6 @@ public class Hw3b {
 			}
 			x = sc.nextInt();
 		}
-		System.out.print("猜對了答案就是" + i);
+		System.out.print("猜對了答案就是" + i);sc.close();
 	}
 }
