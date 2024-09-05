@@ -9,6 +9,7 @@ public class Hw2 {
 
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
+	System.out.println("請輸入想倒反的字串");
 	String str = sc.nextLine();
 	String arg = str; 
 //		String arg = "Hello World";
